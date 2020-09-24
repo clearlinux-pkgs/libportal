@@ -4,7 +4,7 @@
 #
 Name     : libportal
 Version  : 0.3
-Release  : 1
+Release  : 2
 URL      : https://github.com/flatpak/libportal/releases/download/0.3/libportal-0.3.tar.xz
 Source0  : https://github.com/flatpak/libportal/releases/download/0.3/libportal-0.3.tar.xz
 Summary  : Portal API wrappers

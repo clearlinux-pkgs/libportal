@@ -1,6 +1,10 @@
-option('build-portal-test', type: 'boolean', value: false,
-  description : 'Build the portal-test application')
-option('build-portal-test-qt', type: 'boolean', value: false,
-  description: 'Build the portal-test-qt application')
-option('gtk_doc', type: 'boolean', value: true,
+option('backends', type: 'array', choices: ['gtk3', 'gtk4', 'qt5'], value: ['gtk3', 'gtk4', 'qt5'],
+  description : 'A list of portal backends to build')
+option('portal-tests', type: 'boolean', value: false,
+  description : 'Build portal tests of each backend')
+option('introspection', type: 'boolean', value: true,
+  description: 'Generate GObject introspection files')
+option('vapi', type: 'boolean', value: true,
+  description : 'Generate Vala bindings')
+option('docs', type: 'boolean', value: true,
   description : 'Build API reference with gtk-doc')

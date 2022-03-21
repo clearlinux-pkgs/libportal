@@ -4,7 +4,7 @@
 #
 Name     : libportal
 Version  : 0.5
-Release  : 4
+Release  : 5
 URL      : https://github.com/flatpak/libportal/releases/download/0.5/libportal-0.5.tar.xz
 Source0  : https://github.com/flatpak/libportal/releases/download/0.5/libportal-0.5.tar.xz
 Summary  : No detailed summary available
@@ -13,6 +13,7 @@ License  : LGPL-3.0
 Requires: libportal-data = %{version}-%{release}
 Requires: libportal-lib = %{version}-%{release}
 Requires: libportal-license = %{version}-%{release}
+Requires: xdg-desktop-portal
 BuildRequires : buildreq-kde
 BuildRequires : buildreq-meson
 BuildRequires : gtk-doc
@@ -74,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1640881496
+export SOURCE_DATE_EPOCH=1647874307
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

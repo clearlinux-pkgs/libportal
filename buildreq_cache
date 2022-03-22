@@ -1,4 +1,4 @@
-0.5
+0.6
 pkgconfig(gobject-introspection-1.0)
 pkgconfig(gtk+-3.0)
 pkgconfig(gtk4)

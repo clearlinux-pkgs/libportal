@@ -7,6 +7,7 @@ libportal-gtk3.so.1:xdp_discrete_axis_get_type
 libportal-gtk3.so.1:xdp_email_flags_get_type
 libportal-gtk3.so.1:xdp_inhibit_flags_get_type
 libportal-gtk3.so.1:xdp_key_state_get_type
+libportal-gtk3.so.1:xdp_launcher_type_get_type
 libportal-gtk3.so.1:xdp_location_accuracy_get_type
 libportal-gtk3.so.1:xdp_location_monitor_flags_get_type
 libportal-gtk3.so.1:xdp_login_session_state_get_type
@@ -39,6 +40,7 @@ libportal-gtk4.so.1:xdp_discrete_axis_get_type
 libportal-gtk4.so.1:xdp_email_flags_get_type
 libportal-gtk4.so.1:xdp_inhibit_flags_get_type
 libportal-gtk4.so.1:xdp_key_state_get_type
+libportal-gtk4.so.1:xdp_launcher_type_get_type
 libportal-gtk4.so.1:xdp_location_accuracy_get_type
 libportal-gtk4.so.1:xdp_location_monitor_flags_get_type
 libportal-gtk4.so.1:xdp_login_session_state_get_type
@@ -63,6 +65,15 @@ libportal-gtk4.so.1:xdp_update_status_get_type
 libportal-gtk4.so.1:xdp_user_information_flags_get_type
 libportal-gtk4.so.1:xdp_wallpaper_flags_get_type
 libportal-qt5.so.1:_Z17xdp_parent_new_qtP7QWindow
+libportal-qt5.so.1:_ZN5XdpQt18GVariantToQVariantEP9_GVariant
+libportal-qt5.so.1:_ZN5XdpQt18globalPortalObjectEv
+libportal-qt5.so.1:_ZN5XdpQt22notificationToGVariantERKNS_12NotificationE
+libportal-qt5.so.1:_ZN5XdpQt26filechooserFilesToGVariantERK11QStringList
+libportal-qt5.so.1:_ZN5XdpQt27filechooserFilterToGVariantERKNS_17FileChooserFilterE
+libportal-qt5.so.1:_ZN5XdpQt28filechooserChoicesToGVariantERK5QListINS_17FileChooserChoiceEE
+libportal-qt5.so.1:_ZN5XdpQt28filechooserFiltersToGVariantERK5QListINS_17FileChooserFilterEE
+libportal-qt5.so.1:_ZN5XdpQt29filechooserResultFromGVariantEP9_GVariant
+libportal-qt5.so.1:_ZN5XdpQt36getUserInformationResultFromGVariantEP9_GVariant
 libportal-qt5.so.1:xdp_background_flags_get_type
 libportal-qt5.so.1:xdp_button_state_get_type
 libportal-qt5.so.1:xdp_camera_flags_get_type
@@ -72,6 +83,7 @@ libportal-qt5.so.1:xdp_discrete_axis_get_type
 libportal-qt5.so.1:xdp_email_flags_get_type
 libportal-qt5.so.1:xdp_inhibit_flags_get_type
 libportal-qt5.so.1:xdp_key_state_get_type
+libportal-qt5.so.1:xdp_launcher_type_get_type
 libportal-qt5.so.1:xdp_location_accuracy_get_type
 libportal-qt5.so.1:xdp_location_monitor_flags_get_type
 libportal-qt5.so.1:xdp_login_session_state_get_type
@@ -103,6 +115,7 @@ libportal.so.1:xdp_discrete_axis_get_type
 libportal.so.1:xdp_email_flags_get_type
 libportal.so.1:xdp_inhibit_flags_get_type
 libportal.so.1:xdp_key_state_get_type
+libportal.so.1:xdp_launcher_type_get_type
 libportal.so.1:xdp_location_accuracy_get_type
 libportal.so.1:xdp_location_monitor_flags_get_type
 libportal.so.1:xdp_login_session_state_get_type
@@ -124,6 +137,14 @@ libportal.so.1:xdp_portal_create_remote_desktop_session
 libportal.so.1:xdp_portal_create_remote_desktop_session_finish
 libportal.so.1:xdp_portal_create_screencast_session
 libportal.so.1:xdp_portal_create_screencast_session_finish
+libportal.so.1:xdp_portal_dynamic_launcher_get_desktop_entry
+libportal.so.1:xdp_portal_dynamic_launcher_get_icon
+libportal.so.1:xdp_portal_dynamic_launcher_install
+libportal.so.1:xdp_portal_dynamic_launcher_launch
+libportal.so.1:xdp_portal_dynamic_launcher_prepare_install
+libportal.so.1:xdp_portal_dynamic_launcher_prepare_install_finish
+libportal.so.1:xdp_portal_dynamic_launcher_request_install_token
+libportal.so.1:xdp_portal_dynamic_launcher_uninstall
 libportal.so.1:xdp_portal_get_type
 libportal.so.1:xdp_portal_get_user_information
 libportal.so.1:xdp_portal_get_user_information_finish
@@ -148,6 +169,9 @@ libportal.so.1:xdp_portal_print_file_finish
 libportal.so.1:xdp_portal_remove_notification
 libportal.so.1:xdp_portal_request_background
 libportal.so.1:xdp_portal_request_background_finish
+libportal.so.1:xdp_portal_running_under_flatpak
+libportal.so.1:xdp_portal_running_under_sandbox
+libportal.so.1:xdp_portal_running_under_snap
 libportal.so.1:xdp_portal_save_file
 libportal.so.1:xdp_portal_save_file_finish
 libportal.so.1:xdp_portal_save_files
